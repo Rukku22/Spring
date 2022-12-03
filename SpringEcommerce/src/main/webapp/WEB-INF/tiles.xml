@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>   
+    <definition name="base.definition"  
+        template="/WEB-INF/jsp/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />  
+         <put-attribute name="body" value="" />  
+         <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />  
+    </definition>  
+    <definition name="homepage" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/homepage.jsp" />  
+    </definition>
+    <definition name="register" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />  
+    </definition>    
+   
+  <definition name="plplist" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/plp.jsp" />  
+    </definition> 
+      
+     <definition name="shirts" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/men.jsp" />  
+    </definition>   
+      <definition name="pdpwomen" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/pdpwomen.jsp" />  
+    </definition> 
+    <definition name="cartlist" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/cartlist.jsp" />  
+    </definition>
+     <definition name="orderlist" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/orderlist.jsp" />  
+    </definition>
+    <definition name="plpmen" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/plpmen.jsp" />  
+    </definition>
+     
+     
+     <definition name="orderConformation" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/orderConformation.jsp" />  
+    </definition>
+          <definition name="pdpshirt" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/pdpshirt.jsp" />  
+    </definition> 
+    <definition name="plptop" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/plptop.jsp" />  
+    </definition> 
+    <definition name="pdptop" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/pdptop.jsp" />  
+    </definition> 
+    <definition name="plpkit" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/plpkit.jsp" />  
+    </definition> 
+    <definition name="pdpkit" extends="base.definition">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/pdpkit.jsp" />  
+    </definition>
+</tiles-definitions>  
